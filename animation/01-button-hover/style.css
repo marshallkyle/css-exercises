@@ -5,15 +5,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Arial, sans-serif;
 }
 
 button {
   border-radius: 8px;
   border: none;
-  background-color: #2563eb;
+  background-color: #d4bd71;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+button {
+  cursor: crosshair;
+  transition: transform .3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.5);
 }
