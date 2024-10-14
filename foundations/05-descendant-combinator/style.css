@@ -1,0 +1,8 @@
+.container .text {
+    background-color: rgb(50, 33, 197);
+    color: #d6e3eb;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
