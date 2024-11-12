@@ -1,10 +1,31 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-height: 250px;
+  padding: 20px;
+} 
+
+.text {
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 200px;
+  text-align: center;
+  margin: 10px;
 }
 
 .title {
@@ -22,5 +43,5 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eee;
+  background: #6ea8ff;
 }
